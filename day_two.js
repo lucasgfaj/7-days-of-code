@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync');
+const prompt = require('prompt-sync')();
 
 let name = prompt('Qual o seu nome? ');
 let age = prompt('Quantos anos você tem? ');
